@@ -1,0 +1,6 @@
+<settings><category label="Melodica">
+<setting id="username" type="text" label="Pandora email" default=""/>
+<setting id="password" type="text" option="hidden" label="Pandora password" default=""/>
+<setting id="scrobble_token" type="text" option="hidden" label="Spaceghost Scrobbles client token" default=""/>
+<setting id="scrobbling" type="bool" label="Send listens to Spaceghost Scrobbles" default="false"/>
+</category></settings>

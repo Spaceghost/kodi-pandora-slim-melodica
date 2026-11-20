@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.pandoraslim.melodica" name="Pandora Slim for Melodica" version="1.0.0" provider-name="gominoa, Spaceghost">
+  <requires><import addon="xbmc.python" version="3.0.0"/></requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"><provides>audio</provides></extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata"><summary lang="en_GB">Play your Melodica stations in Kodi</summary>
+   <description lang="en_GB">Browse your stations, play a mix on your TV and keep your listening history in Spaceghost Scrobbles.</description>
+   <platform>all</platform><license>GPL-3.0</license><assets><icon>icon.png</icon></assets>
+  </extension>
+</addon>
